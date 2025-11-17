@@ -17,7 +17,7 @@
 
         <Frame Padding="10">
 
-            <VerticalStackLayout>
+    <VerticalStackLayout>
 
                 <Grid RowDefinitions="Auto, Auto"
                       ColumnDefinitions="*, *, 2*"/>
