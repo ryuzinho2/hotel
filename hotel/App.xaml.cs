@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-
-namespace hotel
+﻿namespace hotel
 {
     public partial class App : Application
     {
@@ -8,7 +6,7 @@ namespace hotel
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new Views.ContratacaoHospedagem());
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
